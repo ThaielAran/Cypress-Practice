@@ -1,0 +1,1 @@
+describe('Login', () => {    it('Visits the login page', () => {        cy.visit('http://uitestingplayground.com/sampleapp')        cy.get('input[name="UserName"]').type('admin')        cy.get('input[name="Password"]').type('pwd')        cy.get('#login').click()        cy.get('#loginstatus').should('contain', 'Welcome, admin!')    })})

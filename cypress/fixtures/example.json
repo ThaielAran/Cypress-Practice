@@ -1,0 +1,26 @@
+{
+  "credencialesBuenas": [
+    {"nombre":"Thaiel", "password":"pwd"},
+    {"nombre":"Candela", "password":"pwd"},
+    {"nombre":"Mercedes", "password":"pwd"},
+    {"nombre":"Francisco", "password":"pwd"}
+  ],
+  "credencialesMalas": [
+    {"nombre":"Thaiel", "password":"asdfasdf"},
+    {"nombre":"Candela", "password":"aasdfdd"},
+    {"nombre":"Mercedes", "password":"asdfasdf"},
+    {"nombre":"Francisco", "password":"asdfasdf"}
+  ],
+  "credencialesIncompletas": [
+    {"nombre":" ", "password":"asdfasdf"},
+    {"nombre":" ", "password":"aasdfdd"},
+    {"nombre":" ", "password":"asdfasdf"},
+    {"nombre":" ", "password":"asdfasdf"}
+  ],
+  "credencialesIncompletas2": [
+    {"nombre":"Thaiel", "password":" "},
+    {"nombre":"Candela", "password":" "},
+    {"nombre":"Mercedes", "password":" "},
+    {"nombre":"Francisco", "password":" "}
+  ]
+}
